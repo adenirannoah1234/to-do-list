@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+}
+.todomain{
+    margin-top: 40px;
+    background-color: white;
+    width:30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+.todochild{
+    display: flex;
+    justify-content: space-between;
+}
+.todogrand{
+    display: flex;
+    justify-content: space-between;
+}
+.paragraph{
+    margin-top: 20px;
+}
+h1{
+    color: blue;
+}
+.todoinput{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+.item{
+    width: 100%;
+}
+.alert{
+    text-align: center;
+    color: red;
+    margin-bottom: 20px;
+}
+button{
+    cursor: pointer;
+}
