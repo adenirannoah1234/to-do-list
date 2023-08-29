@@ -16,5 +16,24 @@ submitBtn.addEventListener('click', function (e) {
     }
 })
 
+function updateDate() {
+    const now = new Date();
+    const year = now.getFullYear();
+    const month = now.getMonth() + 1; // Months are zero-based
+    const day = now.getDate();
+    
+    // Format the date as yyyy-mm-dd
+    const formattedDate = `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+    
+    // Update the content of the date element
+    const dateElement = document.getElementById('date');
+    dateElement.textContent = formattedDate;
+  }
+  
+  // Update the date immediately and then set an interval to update it daily
+  updateDate();
+  setInterval(updateDate, 86400000); // Update every 86400000ms (24 hours)
+    
+
 
 // tip calculator media queries, object and function.
