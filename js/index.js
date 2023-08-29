@@ -15,3 +15,6 @@ submitBtn.addEventListener('click', function (e) {
         paraGraph.innerHTML += `<p>${toDo.value}</p>`
     }
 })
+
+
+// tip calculator media queries, object and function.

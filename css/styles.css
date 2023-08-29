@@ -13,6 +13,9 @@ body{
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
+    box-shadow: 10px 10px 10px rgb(207, 207, 207);
+    /* height: 300px; */
+    border: 1px solid blue;
 }
 .todochild{
     display: flex;
@@ -25,7 +28,7 @@ body{
 .paragraph{
     margin-top: 20px;
 }
-h1{
+h1, h3, h6{
     color: blue;
 }
 .todoinput{
@@ -38,6 +41,8 @@ h1{
 }
 .item{
     width: 100%;
+    border: none;
+    border: 1px solid blue;
 }
 .alert{
     text-align: center;
@@ -46,4 +51,38 @@ h1{
 }
 button{
     cursor: pointer;
+    all: unset;
+    background-color: blue;
+    color: white;
+    font-size: 17px;
+    padding: 0px 4px;
+}
+.bi-calendar-check{
+    color: blue;
+    height: 50px;
+}
+@media screen and (max-width: 992px){
+    .todomain{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 768px){
+    .todomain{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 576px){
+    .todomain{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 480px){
+    .todomain{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 375px){
+    .todomain{
+        width: 100%;
+    }
 }
