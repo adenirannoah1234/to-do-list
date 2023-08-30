@@ -61,6 +61,18 @@ button{
     color: blue;
     height: 50px;
 }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 10px 30px;
+    width: 100%;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
 @media screen and (max-width: 992px){
     .todomain{
         width: 50%;
