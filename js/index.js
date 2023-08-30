@@ -46,7 +46,7 @@ function updateDate() {
 
 // local storage
 
-localStorage.setItem('username', 'Noah');
-localStorage.setItem('AGE', '25');
-const x = localStorage.getItem('username')
-document.querySelector('.localstorage').textContent = x
+// localStorage.setItem('username', 'Noah');
+// localStorage.setItem('AGE', '25');
+// const x = localStorage.getItem('username')
+// document.querySelector('.localstorage').textContent = x
